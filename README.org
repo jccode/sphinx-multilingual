@@ -1,0 +1,35 @@
+
+* Sphinx-multilingual
+
+This project intend to provide a template project to create a multi-language
+documentation with sphinx. 
+
+** How to use?
+Clone the project and change the "project-name", "author-name" in `config/all.py`.
+   
+*** add/remove a language
+let's take `fr` as an example. 
+
+1. Make a new language folder, with `en` as a template
+   #+BEGIN_SRC bash
+     cp -r en fr
+   #+END_SRC
+
+2. Change `conf.py` in new folder. 
+   #+BEGIN_SRC python
+     language = 'fr'
+   #+END_SRC
+
+3. Add the new language to `config/all.py`(last line of the file)
+   #+BEGIN_SRC python
+     languages = ['en', 'zh-cn', 'fr']
+   #+END_SRC
+
+** Build the html?
+#+BEGIN_SRC bash
+  make html
+#+END_SRC
+
+
+** License
+Licensed under the MIT License. You can feel free to use it.
