@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Django-bizflow'
+project = u'Sphinx-sample-project'
 copyright = u'2014, jcchen'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -176,7 +176,7 @@ html_static_path = ['../_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Django-bizflowdoc'
+htmlhelp_basename = 'Sphinx-sample-projectdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -196,7 +196,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Django-bizflow.tex', u'Django-bizflow Documentation',
+  ('index', 'Sphinx-sample-project.tex', u'Sphinx-sample-project Documentation',
    u'jcchen', 'manual'),
 ]
 
@@ -226,7 +226,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-bizflow', u'Django-bizflow Documentation',
+    ('index', 'sphinx-sample-project', u'Sphinx-sample-project Documentation',
      [u'jcchen'], 1)
 ]
 
@@ -240,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Django-bizflow', u'Django-bizflow Documentation',
-   u'jcchen', 'Django-bizflow', 'One line description of project.',
+  ('index', 'Sphinx-sample-project', u'Sphinx-sample-project Documentation',
+   u'jcchen', 'Sphinx-sample-project', 'One line description of project.',
    'Miscellaneous'),
 ]
 

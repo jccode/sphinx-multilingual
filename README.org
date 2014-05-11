@@ -20,7 +20,7 @@ let's take =fr= as an example.
      language = 'fr'
    #+END_SRC
 
-3. Add the new language to =config/all.py=(last line of the file)
+3. Add the new language to =config/all.py= (last line of the file)
    #+BEGIN_SRC python
      languages = ['en', 'zh-cn', 'fr']
    #+END_SRC
